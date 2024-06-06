@@ -1,0 +1,13 @@
+runtime: python39
+service: uiwarmad
+
+handlers:
+- url: /
+  static_files: transaksi.html
+  upload: transaksi.html
+
+- url: /login
+  static_files: login.html
+  upload: login.html
+
+
